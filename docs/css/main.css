@@ -1,0 +1,93 @@
+body
+	{font-size:11px; color:#012855; font-weight:normal; font-family:verdana, arial, tahoma, sans-serif;
+}
+td
+	{font-size:11px; color:#012855; font-weight:normal; font-family: verdana, arial, tahoma, sans-serif
+}
+
+a:visited 	{font-size:11px; color:#666666; font-weight:normal; font-family:verdana, arial, tahoma, sans-serif
+}
+
+H1 { border-width: thick }             
+
+.heading
+	{font-size:13px; color:#000000; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+
+a
+	{font-size:11px; color:#666666; font-weight:normal; font-family:verdana, arial, tahoma, sans-serif
+}
+
+.brz
+	{font-size:12px; color:#280E31; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.hspacer {
+	WIDTH: 20px
+}
+.hspacer DIV {
+	WIDTH: 20px
+}
+.vspacer {
+	HEIGHT: 20px; BACKGROUND-COLOR: #fef2f2
+}
+.vspacer_small {
+	HEIGHT: 14px
+}
+
+H1
+	{font-size:15px; color:#666666; font-weight:normal; font-family:verdana, arial, tahoma, sans-serif;
+}
+
+H2
+	{font-size:12px; color:#666666; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif;
+}
+
+.mih
+	{font-size:12px; color:#000000; font-weight:normal; font-family:verdana, arial, tahoma, sans-serif
+}
+.lf
+	{font-size:12px; color:#eeeeee; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.tt
+	{font-size:13px; color:#ffffff; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.tm
+	{font-size:16px; color:#000000; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.ttf
+	{font-size:14px; color:#012855; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.akcent
+	{font-size:14px; color:#E99C04; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.akcent2
+	{font-size:12px; color:#E99C04; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.work
+	{font-size:11px; color:#012855; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+TABLE   { border-collapse: collapse }
+img   { border-collapse: collapse; border-color:000000 }
+
+.tk
+	{font-size:11px; color:#280E31; font-weight:normal; font-family:verdana, arial, tahoma, sans-serif
+}
+.tkz
+	{font-size:11px; color:#280E31; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+.wow
+	{font-size:15px; color:#FFFFFF; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+
+
+.heading
+	{font-size:12px; color:#000000; font-weight:bold; font-family:verdana, arial, tahoma, sans-serif
+}
+
+
+/* Стили привязываем к элементу с id='Go_Top' */
+#Go_Top {
+    position: fixed; /* Положение кнопки */   
+    bottom: 60px; /* Расстояние снизу */
+    right: 10px; /* Расстоянtion:none;}
+#fl_menu .menu a.menu_item:hover{background:#333; color:#fff;}

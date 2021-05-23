@@ -1,0 +1,36 @@
+body{font-family: "Arial"; line-height: 18px;}
+a {-webkit-transition-property: background-color;
+      -moz-transition-property: background-color;
+        -o-transition-property: background-color;
+       -ms-transition-property: background-color;
+           transition-property: background-color;
+
+   -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+        -o-transition-duration: 1s;
+       -ms-transition-duration: 1s;
+           transition-duration: 1s;
+		   color: #F9F9F9;}
+.messages{height: 20px;}
+#admin{text-align: center;}
+#controlpanel a{font-size: 12px;  text-decoration: none;
+}
+.towns,.delivery{display: none; width: 400px; height: 200px;}
+.addarea{width: 400px; height: 200px;}
+.menu{float:left;width: 120px;}
+.menu a, #apply, #apply2, #add_me, #ok{display: block;width: 110px; padding: 10px; border-top: 1px solid #E9E9E9; 
+border-bottom: 1px solid #24282B; background: #017CC2; text-align: center;}
+.menu a:active{
+margin-top: 1px;
+margin-left: 1px;
+}
+.menu a:hover, #apply:hover, #apply2:hover,#add_me:hover, #ok:hover{background: #049bf2;}
+#apply, #apply2, #add_me, #ok {margin-top: 10px;}
+#apply:active, #apply2:active,#add_me:active, #ok:active{
+margin-top: 11px;
+margin-left: 1px;
+}
+#mainwindow{float: left;
+left: 30px;
+position: relative;}
+#rem {color:#000;}

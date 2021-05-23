@@ -1,0 +1,244 @@
+body{
+font-family: sans-serif;
+}
+.rekField1{width: 90px !important; margin-right: 5px;}
+.rekField2{width: 40px !important; margin-right: 5px;}
+.rekField3{width: 120px !important; margin-right: 5px;}
+input[type="value"], select {width: 260px;}
+
+.clear{
+clear: both;
+}
+label { width: 10em; float: left; }
+label.error { position:relative; float: none; color: red; font-size: 11px; font-style:italic; font-weight: bold; padding-left: .5em; vertical-align: top; 
+display: block;width: 100%;
+}
+
+.attention{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.submit { margin-left: 12em; }
+
+.main, #formdiv{
+width:700px;
+margin:0 auto;
+font-size: 12px;
+}
+
+.towns, .deltowns, .delivery, #sendtemplate, #addtemplate,#otherorder, .main, #loader, #formdiv{
+display: none;
+}
+ 
+
+.title{
+margin-bottom:6px;}
+ 
+.description{font-size:11px; font-family:Geneva, Arial, Helvetica, sans-serif;}
+
+.date{font-size:10px; color:#999; margin-top:4px;}
+
+.loader{
+height:11px;
+}
+
+#chooseyodestiny{
+width: 500px;
+height: 300px;
+margin: auto;
+text-align: center;
+}
+
+.title_big{
+margin: 15px 0px 15px 0px;
+color: #201c19;
+font-size: 15px;
+font-weight: bold;
+}
+
+.small-title{
+margin: 17px 0px 3px 0px;
+color: #201c19;
+font-size: 13px;
+font-weight: normal;
+}
+
+.removef, .addf, .addfi,.addffs,.removef:visited, .addf:visited, .addfi:visited,.addffs:visited {
+margin: 0px 10px 0px 10px;
+font-size: 12px;
+font-weight: normal;	
+background: #e47a16;
+color: #f9f9f9;
+text-decoration: none;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+padding: 5px;
+}
+
+.addf,.addffs,.addfi{display: none;}
+
+.removef:active, .addf:active {
+   position: relative;
+   top: 1px;
+   left: 1px;
+}
+
+.big_title {
+font-size: 20px;
+font-weight: bold;
+color: #000;
+}
+
+.title2{
+font-size: 13px;
+font-weight: normal;
+color: grey;
+font-style: italic;
+}
+
+.text{
+font-size: 14px;
+color: #000;
+}
+
+.star{
+color: red;
+}
+
+.button_blue, .button_blue:visited{
+background: #017cc2;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+color: #f9f9f9;
+padding: 5px;
+font-size: 13px;
+text-decoration: none;
+font-weight: bold;
+border: 0px;
+cursor: pointer;
+cursor: hand;
+}
+
+.button_blue:active {
+   position: relative;
+   top: 1px;
+   left: 1px;
+}
+#step0 {width: 165px;margin: auto;}
+#step1 {border-left: 1px solid #aeaeae !important;}
+
+#controlpan a{
+	background: #edefee;
+	float: left;
+	color: #ed7900;
+	border-top: 1px solid #aeaeae;
+	border-bottom: 1px solid #aeaeae;
+	border-right: 1px solid #aeaeae;
+	border-left: 1px solid #f9f9f9;
+	padding: 10px 4px 20px 5px;
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	overflow: hidden;
+	width: 105px;
+	height: 55px;
+}
+
+#controlpan a.current{
+	color: #ed7900;
+	background: #67666b;
+}
+
+#controlpan a span {
+color: #000;
+font-size: 11px;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+#controlpan a.activeS span.changel:hover {color: blue;}
+#controlpan a.current span.changel:hover {color: #f9f9f9;}
+
+#controlpan a span.changel {
+color: #000;
+font-size: 10px;
+font-weight: normal;
+text-decoration: underline;
+font-style:italic;
+display: none;
+}
+
+#controlpan a.current span, #controlpan a.current span.changel{
+color: #f9f9f9;
+}
+
+/*#controlpan a.current{
+	width: auto;
+}*/
+
+/*#controlpan a.current span{
+	display: inline;
+}*/
+
+/*#controlpan a span,*/ #controlpan {
+	display: none;
+}
+
+.info{
+	float: right; background: url('delivery.png') no-repeat 0% 0%; height:26px;
+	margin:0px;
+}
+
+.info a{
+color: #9a9a9a; font-size: 13px;padding: 5px 0px 0px 25px;font-style:italic;display: block;
+}
+
+fieldset{display: none; border: 0px; font-size: 12px;}
+
+.activeF {display: block;}
+
+#newpapertype, #other, .type1, .type2, .type3, #newpost, #newcolor, #delform, #rekv, #rekvform, #rekvload, #linktemplate, 
+#addtemp, #links, #agree, #addtz, #tzform, #sendfs,#addfs{
+	display: none;
+}
+
+.feedback div {margin: 10px 0px 10px 0px;}
+
+#success {
+	width: 600px;
+	margin: auto;
+	height: 300px;
+	background: url('success.png') #dededc no-repeat 5% 3%;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 1px solid #adadad;
+	color: #25221d;
+	font-size: 14px;
+	font-family: "verdana";
+}
+
+.big{
+	font-weight: bold;
+	font-size: 22px;
+	margin: 50px 0px 0px 120px;
+}
+
+.sucesstext {
+	margin: 40px 0px 20px 35px;
+}
+
+.sucesstext a{
+	color: #25221d;
+	display: block;
+	margin-top: 15px;
+}
+
+.feedback{margin-bottom: 30px;}
+.confirm{color:red;}
+.bold-title{margin-bottom: 0px; font-weight: bold;}
